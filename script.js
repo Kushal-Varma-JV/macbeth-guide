@@ -55,7 +55,7 @@ const timeline = [
   { when:"Act V", text:"Lady Macbeth sleepwalks and dies. Birnam Wood 'moves.' Macduff — 'not of woman born' — kills Macbeth. Malcolm is crowned." }
 ];
 
-/* ---------- ACTS (scenes, themes, quotes, images, audio) ---------- */
+/* ---------- ACTS (scenes, themes, quotes, audio) ---------- */
 /* NOTE: the "audio" field is the path to YOUR recorded voice note.
    Put your files in an "audio" folder. Change .mp3 to .webm if needed. */
 const acts = [
@@ -79,8 +79,7 @@ const acts = [
       ["Fair is foul, and foul is fair.","The Witches · 1.1",true],
       ["Look like th' innocent flower, but be the serpent under 't.","Lady Macbeth · 1.5",false],
       ["I have no spur to prick the sides of my intent, but only vaulting ambition.","Macbeth · 1.7",true]
-    ],
-    images:"A storm-lashed heath · three cowled silhouettes in mist · a golden crown on dark velvet · candlelit Inverness castle at dusk."
+    ]
   },
   {
     num:"Act Two", title:"The Murder of Duncan", audio:"audio/act2.m4a",
@@ -99,8 +98,7 @@ const acts = [
       ["Is this a dagger which I see before me, the handle toward my hand?","Macbeth · 2.1",true],
       ["Will all great Neptune's ocean wash this blood clean from my hand?","Macbeth · 2.2",true],
       ["A little water clears us of this deed.","Lady Macbeth · 2.2",false]
-    ],
-    images:"A glowing dagger in shadow · blood-dark hands · a stone corridor by candle · a screeching owl against a stormy moon."
+    ]
   },
   {
     num:"Act Three", title:"Paranoia & Banquo's Ghost", audio:"audio/act3.m4a",
@@ -121,8 +119,7 @@ const acts = [
       ["Naught's had, all's spent, where our desire is got without content.","Lady Macbeth · 3.2",false],
       ["I am in blood stepped in so far that, should I wade no more, returning were as tedious as go o'er.","Macbeth · 3.4",true],
       ["Thou canst not say I did it; never shake thy gory locks at me.","Macbeth · 3.4",false]
-    ],
-    images:"A pale, bloodied ghost at a feast · an untouched throne · a boy running into darkness · a hooded assassin's blade."
+    ]
   },
   {
     num:"Act Four", title:"Prophecies & Atrocity", audio:"audio/act4.m4a",
@@ -140,8 +137,7 @@ const acts = [
       ["By the pricking of my thumbs, something wicked this way comes.","Second Witch · 4.1",false],
       ["None of woman born shall harm Macbeth.","The Apparition · 4.1",true],
       ["I shall do so; but I must also feel it as a man.","Macduff · 4.3",false]
-    ],
-    images:"A bubbling cauldron ringed by apparitions · a marching, leaf-clad forest · a father crumpling in grief · a castle at Fife in flames."
+    ]
   },
   {
     num:"Act Five", title:"Downfall & Restoration", audio:"audio/act5.m4a",
@@ -161,8 +157,7 @@ const acts = [
       ["Out, damned spot! Out, I say!","Lady Macbeth · 5.1",false],
       ["Life's but a walking shadow… a tale told by an idiot, full of sound and fury, signifying nothing.","Macbeth · 5.5",true],
       ["Lay on, Macduff, and damned be him that first cries 'Hold, enough!'","Macbeth · 5.8",false]
-    ],
-    images:"A single candle and a sleepwalker washing her hands · soldiers behind leafy branches · two knights clashing at dawn · a new crown raised to the sky."
+    ]
   }
 ];
 
@@ -252,8 +247,6 @@ acts.forEach((a,i)=>{
         <h4>Scene Breakdown</h4>${scenes}
         <h4>Themes at Work</h4>${themes}
         <h4>Key Quotes</h4>${quotes}
-        <h4>Image Ideas</h4>
-        <div class="image-ideas"><strong>Suggested visuals:</strong> ${a.images}</div>
       </div>
     </div>`);
 });
