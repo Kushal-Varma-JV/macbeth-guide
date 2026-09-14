@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Macbeth — A Scrollytelling Study Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== PROGRESS BAR ===== -->
+  <div id="progress-bar"></div>
+
+  <!-- ===== FLOATING NAV ===== -->
+  <nav id="dot-nav"></nav>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <div class="hero-fog"></div>
+    <div class="hero-content">
+      <p class="hero-kicker">William Shakespeare's</p>
+      <h1 class="hero-title">MACBETH</h1>
+      <p class="hero-sub">Ambition. Blood. Prophecy. Ruin.</p>
+      <div class="scroll-cue"><span></span>scroll to begin</div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== OVERVIEW ===== -->
+    <section id="overview" class="chapter">
+      <div class="chapter-inner reveal">
+        <span class="section-label">The Story</span>
+        <h2>In a Nutshell</h2>
+        <p class="lead">A war hero hears a prophecy that he will be king — and lets his
+        ambition, and his wife, push him toward <strong>murder</strong>.</p>
+        <p>Spurred by three witches and by <strong>Lady Macbeth</strong>, the great general
+        <strong>Macbeth</strong> kills <strong>King Duncan</strong> and seizes the throne.
+        To keep his crown he keeps killing — until <em>guilt, paranoia and a gathering
+        rebellion</em> destroy him. It is Shakespeare's shortest, darkest, fastest tragedy.</p>
+      </div>
+    </section>
+
+    <!-- ===== CHARACTERS ===== -->
+    <section id="characters" class="chapter">
+      <div class="chapter-inner">
+        <div class="reveal">
+          <span class="section-label">The Players</span>
+          <h2>Who's Who</h2>
+          <p class="hint">Swap the placeholder images in the <code>img</code> folder for your own pictures.</p>
+        </div>
+        <div id="character-grid" class="char-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== ALLEGIANCE MAP ===== -->
+    <section id="treemap" class="chapter">
+      <div class="chapter-inner">
+        <div class="reveal">
+          <span class="section-label">The Divide</span>
+          <h2>Thanes &amp; Shifting Allegiances</h2>
+          <p class="hint"><span class="key green"></span> Loyal to Duncan / Malcolm
+            &nbsp;·&nbsp; <span class="key red"></span> Macbeth's side</p>
+        </div>
+        <div id="allegiance" class="allegiance reveal"></div>
+      </div>
+    </section>
+
+    <!-- ===== TIMELINE ===== -->
+    <section id="timeline" class="chapter">
+      <div class="chapter-inner">
+        <div class="reveal">
+          <span class="section-label">The Descent</span>
+          <h2>Timeline of the Fall</h2>
+        </div>
+        <div id="timeline-track" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ===== ACTS ===== -->
+    <section id="acts" class="chapter acts-chapter">
+      <div class="chapter-inner">
+        <div class="reveal">
+          <span class="section-label">Five Acts</span>
+          <h2>The Play, Act by Act</h2>
+          <p class="hint">Scroll through each act — scenes, woven themes, highlighted quotes,
+          image ideas, and a voice-note recorder.</p>
+        </div>
+        <div id="acts-container"></div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="chapter">
+      <div class="chapter-inner">
+        <div class="reveal">
+          <span class="section-label">Exam Ready</span>
+          <h2>Academic FAQ</h2>
+          <p class="hint">Click any question to reveal the answer.</p>
+        </div>
+        <div id="faq-container" class="reveal"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="footer-title">MACBETH</p>
+    <p>A personal revision guide · content summarised for study purposes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
